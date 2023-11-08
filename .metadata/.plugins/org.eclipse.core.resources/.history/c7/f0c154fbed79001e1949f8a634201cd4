@@ -1,9 +1,0 @@
-package classtest;
-
-//class 객체를 만드는 바탕
-public class Student {
-	int studentID; 
-	String studentName;
-	int grade;
-	String address;
-}

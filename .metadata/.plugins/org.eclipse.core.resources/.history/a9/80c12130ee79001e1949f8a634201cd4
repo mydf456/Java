@@ -1,9 +1,0 @@
-package classtest;
-
-//class 객체를 만드는 바탕, 객체가 가지고 있는 변수나 메서드의 집합
-public class Student {
-	int studentID; 
-	String studentName;
-	int grade;
-	String address;
-}
