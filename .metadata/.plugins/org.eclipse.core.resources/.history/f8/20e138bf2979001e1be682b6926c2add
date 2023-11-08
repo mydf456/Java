@@ -1,0 +1,30 @@
+package switchtest;
+
+import java.util.Scanner;
+
+public class SwitchTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 5층 건물의 층수를 받아 어떤층인 알려주는 프로그램 
+		//
+		Scanner sc = new Scanner(System.in);
+		System.out.print("월을 입력해주세요 >>");
+		int month = sc.nextInt();
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

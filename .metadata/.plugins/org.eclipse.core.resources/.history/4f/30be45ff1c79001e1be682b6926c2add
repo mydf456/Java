@@ -1,0 +1,30 @@
+package Iftest;
+
+import java.util.Scanner;
+
+public class IfExample3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//성적에 따라 학점 부여하기
+		// 100~90점 : A
+		// 89~80점 : B
+		// 79~70점 : C
+		// 69~60점 : D
+		// 그외  : F
+		System.out.print(" >>");
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

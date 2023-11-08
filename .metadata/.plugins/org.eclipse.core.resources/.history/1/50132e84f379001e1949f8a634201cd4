@@ -1,0 +1,31 @@
+package classtest;
+
+public class Person {
+	String name; //이름
+	int height; // 키
+	int weight; //몸무게
+	char gender; //성별
+	boolean married; // 결혼여부
+	
+	void showPersonInfo() {
+		System.out.println(name +","+ height +","+ weight+","+gender+","+married);
+	}
+	
+	int add(int x, int y){
+		return x+y;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

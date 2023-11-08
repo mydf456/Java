@@ -1,0 +1,16 @@
+package chapter2;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//상수(final)는 한번 초기화한 값을 변경할 수 없음
+		final int VALUE = 0;
+		System.out.println(VALUE);
+		// VALUE = 10;
+		final double PI;
+		PI = 3.14;
+		
+	}
+
+}

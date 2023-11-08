@@ -1,0 +1,25 @@
+package operator;
+
+public class OperatorTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// >,<,>=,<=,==,!= : 관계연산자, 비교연산자
+		int num1 = 2;
+		int num2 = 2;
+		System.out.println(num1>num2); 
+		System.out.println(num1<num2); 
+		System.out.println(num1>=num2); // 크거나 같다
+		System.out.println(num1<=num2); // 작거나 같다
+		System.out.println(num1==num2);
+		System.out.println(num1!=num2);
+		
+	}
+
+}
+
+
+
+
+
+

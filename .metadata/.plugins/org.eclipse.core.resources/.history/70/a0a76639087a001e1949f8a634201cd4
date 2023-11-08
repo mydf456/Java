@@ -1,0 +1,12 @@
+package classtest;
+class Order{
+	// 주문번호, 주문자 아이디, 주문 날짜, 주문자 이름, 주문 상품 번호, 배송 주소
+}
+public class OrderTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

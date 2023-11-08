@@ -1,0 +1,19 @@
+package reference;
+
+class Subject{
+	int subjectNum;
+	String subjectTitle;
+	String teacherName;
+	String score;
+}
+
+public class Student {
+	int studentID;
+	String studentName;
+	String koreaTitle;
+	int koreaScore;
+	String koreaTeacher;
+	String mathTitle;
+	int mathScore;
+	String mathTeacher;
+}

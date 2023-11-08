@@ -1,0 +1,15 @@
+package access;
+
+class Student{
+	//접근 제어자 : public, private protected, default
+	public int studentID;
+	private String studentName;
+	int score;
+	protected String majorCode;
+}
+
+public class AccessModifierTest {
+	public static void main(String[]args) {
+		
+	}
+}

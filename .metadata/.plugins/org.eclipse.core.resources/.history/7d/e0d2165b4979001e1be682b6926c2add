@@ -1,0 +1,25 @@
+package fortest;
+
+import java.util.Scanner;
+
+public class practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//윤년 확인 프로그램
+		Scanner sc = new Scanner(System.in);
+		int year = sc.nextInt();
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

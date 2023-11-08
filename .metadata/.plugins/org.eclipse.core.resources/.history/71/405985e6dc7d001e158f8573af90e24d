@@ -1,0 +1,40 @@
+package access;
+
+class Student{
+	//접근 제어자 : public, private, protected, default
+	public int studentID; //외부 클래스 어디서나 다른 패키지에서도 사용가능
+	private String studentName; // 선언된 클래스 안에서만 사용가능 
+	int score; // default : 같은 패키지 안에서만 사용가능 
+	protected String majorCode; // 상속을 받거나 같은 패키지에 있을 경우 사용가능
+	
+	//getter AND setter
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		if(studentName.length() > 50) {
+			this.studentName = studentName;
+		} else {
+			System.out.println("50글자 넘게 설정할 수 없습니다.");
+		}
+		
+	}
+}
+
+public class AccessModifierTest {
+	public static void main(String[]args) {
+		Student kim = new Student();
+		kim.studentID = 1001;
+		//kim.studentName = "-/*+!@#$!@#123456789123456789123456789123456789123456789123456789123456789";
+		kim.setStudentName("김유신");
+	}
+}
+
+
+
+
+
+
+
+
+

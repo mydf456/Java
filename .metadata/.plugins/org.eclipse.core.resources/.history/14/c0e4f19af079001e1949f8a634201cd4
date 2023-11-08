@@ -1,0 +1,13 @@
+package classtest;
+
+import java.util.Scanner;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person kim = new Person();
+		Scanner sc = new Scanner(System.in);
+	}
+
+}
